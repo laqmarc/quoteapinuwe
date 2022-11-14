@@ -45,23 +45,20 @@
 
 ## :dart: About ##
 
-Describe your project
+Simple Random Quote calling the Quote Ninja Api
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Call a diferent quote category with buttons;\
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/es/docs/Glossary/HTML5)
+- [CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [JQuery](https://jquery.com/)
 
 ## :white_check_mark: Requirements ##
 
@@ -87,10 +84,9 @@ $ yarn start
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+Free to use
 
-
-Made with :heart: by <a href="https://github.com/laqmarc" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/laqmarc" target="_blank">laqmarc</a>
 
 &#xa0;
 
