@@ -47,7 +47,7 @@ function callApi(category = 'computers') {
         method: 'GET',
         url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
         headers: {
-            'X-Api-Key': 'VaMP9W8b4Fc2O0V+Yv5OiQ==WaWgD0MPEwIAhofi'
+            'X-Api-Key': 'API-KEY'
         },
         contentType: 'application/json',
 /* Getting the data from the API and displaying it on the page. */
