@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="quote">
+            <div id="result">
+                <div id="author"></div>
+                <div id="quote"></div>
+                <div id="category"></div>
+            </div>
+        </div>
+        <div class="categories">
+            <h2>Select the quote category</h2>
+            <button onclick="callComputers()">Computers</button>
+            <button onclick="callInspirational()">Inspirational</button>
+            <button onclick="callMovies()">Movies</button>
+            <button onclick="callKnowledge()">Knowledge</button>
+            <button onclick="callHumor()">Humor</button>
+            <button onclick="callFuture()">Future</button>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="api.js"></script>
+</body>
+
+</html>

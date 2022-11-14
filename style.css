@@ -1,0 +1,59 @@
+body {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+main {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.quote {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div#author {
+    font-weight: 300;
+    font-size: 3rem;
+
+}
+
+div#author:after {
+    content: " says:";
+}
+
+
+div#quote {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2rem;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+}
+
+div#category {
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+button{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 3px 5px;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
